@@ -2,13 +2,13 @@
 /*导入测试模块ava */
 import test from 'ava';
 /**
- * 编写测试函数
+ * 编写函数trimAll
  */
 　　function trimAll(string) {
     　　return string.replace(/[\s\b]/g, '');
     　　}
      /**
-     *编写测试函数
+     *编写测试函数test
      */
     　　test('trimAll testing', t => {
     　　// 字符串内含有空格符、制表符等空字符都应删除
