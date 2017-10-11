@@ -1,7 +1,15 @@
+//运用ava模块进行测试
+/*导入测试模块ava */
 import test from 'ava';
+/**
+ * 编写测试函数
+ */
 　　function trimAll(string) {
     　　return string.replace(/[\s\b]/g, '');
     　　}
+     /**
+     *编写测试函数
+     */
     　　test('trimAll testing', t => {
     　　// 字符串内含有空格符、制表符等空字符都应删除
     　　t.is(trimAll(' \n \r \t \v \b \f B a r r  i  o  r  \n  \r  \t  \v  \b  \f  '), 'Barrior');
