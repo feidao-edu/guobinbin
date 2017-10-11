@@ -1,0 +1,39 @@
+<<<<<<< HEAD
+{
+  "name": "dist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "add.js",
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.22.0"
+},
+"ava": {
+  "files": [
+    "mytest/*.js",
+    "!**/not-this-file.js"
+  ]
+}
+}
+=======
+{
+  "name": "test-init",
+  "version": "1.0.1",
+  "description": "MaShizhen",
+  "main": "",
+  "scripts": {
+    "start": "node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "crypto": "latest"
+  }
+}
+
+>>>>>>> 36f0a758a47399139e38993938d7a55a21f202de
